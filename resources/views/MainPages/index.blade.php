@@ -148,7 +148,7 @@ Read More
 <div class="row">
 <div class="col-lg-6">
 <div class="transform-img">
-<img src="assets/img/transform-img.jpg" alt="Image">
+<img src="assets/img/we.jpg" alt="Image">
 </div>
 </div>
 <div class="col-lg-6">
@@ -178,7 +178,7 @@ Read More
 <div class="row align-items-center">
 <div class="col-lg-6">
 <div class="choose-img">
-<img src="assets/img/choose-img.png" alt="Image">
+<img src="assets/img/manual-img.png" alt="Image">
 </div>
 </div>
 <div class="col-lg-6">
