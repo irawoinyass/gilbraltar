@@ -188,17 +188,7 @@ return response()->json(['message' => 'Error, Please Try Again', 'class_name' =>
 
 
 
-// 		$image = $request->file('image');
-// 		$ext = $image->getClientOriginalExtension();
-		
-// 		if($request->file('image')->getSize() > 2097152){
 
-// return response()->json(['message' => 'Picture must not be greater than 2MB', 'class_name' => 'alert-danger']);
-
-// 		}else{
-
-// 		$new_name = date('YmD').'Slide'.date('YmD').'photo'.rand().'.'.$ext;
-// 		$image->move('assets/img/slider', $new_name);
 
 		$path = Storage::disk('s3')->put('GILBRALTAR_SLIDES', $request->file('image'));
         $path = Storage::disk('s3')->url($path);
