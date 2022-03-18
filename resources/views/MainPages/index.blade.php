@@ -6,7 +6,7 @@
 
 	@foreach($slides as $slide)
 
-<div class="slider-item" style="background-image :url(/assets/img/slider/{{$slide->image}})">
+<div class="slider-item" style="background-image :url({{$slide->image}})">
 <div class="d-table">
 <div class="d-table-cell">
 <div class="container">

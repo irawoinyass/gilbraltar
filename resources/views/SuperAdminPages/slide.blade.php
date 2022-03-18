@@ -162,7 +162,7 @@
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <img class="img-fluid" src="{{asset('assets/img/slider/'.$slide->image)}}">
+        <img class="img-fluid" src="{{$slide->image}}">
         <h6 >{{$slide->title}}</h6>
         <h5 class="text-center">{{$slide->desc}}</h5>
         @if($slide->button_url != '')
@@ -308,7 +308,7 @@ $.ajax({
 
 if (data.message == 'Slide Added Successfully') {
 
-  // console.log(data);
+   console.log(data);
   $('#message').css('display', 'block');
       $('#message').html(data.message);
       $('#message').addClass(data.class_name);

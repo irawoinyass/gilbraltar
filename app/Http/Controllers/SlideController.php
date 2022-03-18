@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use File;
 use DB;
 use App\Slides;
+use Storage;
 
 class SlideController extends Controller
 {
@@ -34,18 +35,20 @@ public function upload(Request $request){
 
 
 
-    	$image = $request->file('image');
-		$ext = $image->getClientOriginalExtension();
+  //   	$image = $request->file('image');
+		// $ext = $image->getClientOriginalExtension();
 		
-		if($request->file('image')->getSize() > 2097152){
+// 		if($request->file('image')->getSize() > 2097152){
 
-return response()->json(['message' => 'Picture must not be greater than 2MB', 'class_name' => 'alert-danger']);
+// return response()->json(['message' => 'Picture must not be greater than 2MB', 'class_name' => 'alert-danger']);
 
-		}else{
+// 		}else{
 
-		$new_name = date('YmD').'Slide'.date('YmD').'photo'.rand().'.'.$ext;
-		$image->move('assets/img/slider', $new_name);
+		// $new_name = date('YmD').'Slide'.date('YmD').'photo'.rand().'.'.$ext;
+		// $image->move('assets/img/slider', $new_name);
 
+$path = Storage::disk('s3')->put('GILBRALTAR_SLIDES', $request->file('image'));
+        $path = Storage::disk('s3')->url($path);
 		$photo = new Slides;
 		
 		if ($request->title == '') {
@@ -74,7 +77,7 @@ return response()->json(['message' => 'Picture must not be greater than 2MB', 'c
 		
 
 		
-		$photo->image = $new_name;
+		$photo->image = $path;
 		$save = $photo->save();
 
 		if ($save) {
@@ -84,7 +87,7 @@ return response()->json(['message' => 'Error, Please Try Again', 'class_name' =>
 
 		}
 
-		}	
+		//}	
 
     	
     	}
@@ -185,17 +188,20 @@ return response()->json(['message' => 'Error, Please Try Again', 'class_name' =>
 
 
 
-		$image = $request->file('image');
-		$ext = $image->getClientOriginalExtension();
+// 		$image = $request->file('image');
+// 		$ext = $image->getClientOriginalExtension();
 		
-		if($request->file('image')->getSize() > 2097152){
+// 		if($request->file('image')->getSize() > 2097152){
 
-return response()->json(['message' => 'Picture must not be greater than 2MB', 'class_name' => 'alert-danger']);
+// return response()->json(['message' => 'Picture must not be greater than 2MB', 'class_name' => 'alert-danger']);
 
-		}else{
+// 		}else{
 
-		$new_name = date('YmD').'Slide'.date('YmD').'photo'.rand().'.'.$ext;
-		$image->move('assets/img/slider', $new_name);
+// 		$new_name = date('YmD').'Slide'.date('YmD').'photo'.rand().'.'.$ext;
+// 		$image->move('assets/img/slider', $new_name);
+
+		$path = Storage::disk('s3')->put('GILBRALTAR_SLIDES', $request->file('image'));
+        $path = Storage::disk('s3')->url($path);
 
 			$photo = Slides::find($request->slide_id);
 	
@@ -223,9 +229,9 @@ return response()->json(['message' => 'Picture must not be greater than 2MB', 'c
 			$photo->button_name = $request->link_name;
 		}
 		
-	File::delete('assets/img/slider/'.$photo->slide_image);
+	// File::delete('assets/img/slider/'.$photo->slide_image);
 		
-		$photo->image = $new_name;
+		$photo->image = $path;
 		$save = $photo->save();
 
 		if ($save) {
@@ -235,7 +241,7 @@ return response()->json(['message' => 'Error, Please Try Again', 'class_name' =>
 
 		}
 
-		}	
+		//}	
 
 
 
