@@ -22,11 +22,11 @@ Phone: +44 (0) 118 328 7118
 <div class="col-lg-6 col-sm-4">
 <ul class="header-content-right" style="color: #fff;">
 <li>
-<a href="#" target="_blank">
-<i class="bx bxl-facebook" style="color: #fff;"></i>
+<a href="https://find-and-update.company-information.service.gov.uk/company/07758930" target="_blank">
+<i class="bx bx-crown" style="color: #fff;"></i> 
 </a>
 </li>
-<li>
+<!-- <li>
 <a href="#" target="_blank">
 <i class="bx bxl-twitter" style="color: #fff;"></i>
 </a>
@@ -40,7 +40,7 @@ Phone: +44 (0) 118 328 7118
 <a href="#" target="_blank">
 <i class="bx bxl-instagram" style="color: #fff;"></i>
 </a>
-</li>
+</li> -->
 </ul>
 </div>
 </div>
@@ -99,15 +99,12 @@ Services
 <a href="{{route('main.consult')}}" class="nav-link">Business Consulting</a>
 </li>
 <li class="nav-item">
-<a href="{{route('main.operations')}}" class="nav-link">Operations and Support
-Professional Services</a>
+<a href="{{route('main.operations')}}" class="nav-link">Cybersecurity Operations and Support</a>
 </li>
 <li class="nav-item">
 <a href="{{route('main.cloud')}}" class="nav-link">Cloud Solutions</a>
 </li>
-<li class="nav-item">
-<a href="{{route('main.training')}}" class="nav-link">Training</a>
-</li>
+
 </ul>
 </li>
 

@@ -29,12 +29,13 @@ Home
 <div class="col-lg-6">
 <div class="cybersecurity-content">
 <h5>Gilbraltar leading specialist outsource providers of innovative IT solutions - transforming businesses into the modern workplace of the future</h5>
+
 <p>We believe it is good to be different, which is why the service to our clients is second-to-none. Our business efficient and pro-active approach to IT solutions, support and managed services sets us apart from the rest.</p>
-<p>Our team of highly qualified and experienced engineers and system consultants support local companies with global IT requirements. Clients span across a range of industries including; financial services, insurance, hospitality, aviation, real estate, recruitment, education, professional services, medical and public services. All recognise the importance of working with a reliable, proactive and trusted IT provider.</p>
 
-<p>Partnering with the world’s best hardware and software providers, we are renowned for innovative IT solutions which give our clients the competitive edge.</p>
+<p>Our team of highly qualified and experienced engineers and system consultants support local companies with global IT requirements. Clients span across a range of industries including; financial services, insurance, real estate, recruitment, education, professional services and public services. All recognise the importance of working with a reliable, proactive and trusted Technology solutions provider.</p>
 
-<p>As a collective team and as individuals we are all committed to Resolution IT's values. You can find out more about each of our values here.</p>
+
+<p>As a collective team and as individuals we are all committed to Gilbraltar values.</p>
 
 
 

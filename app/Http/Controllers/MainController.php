@@ -96,8 +96,7 @@ class MainController extends Controller
 
      public function operations(){
 
-  $title = "Operations and Support
-Professional Services";
+  $title = "Cybersecurity Operations and Support";
 
    return view('MainPages.operations')->with(['title'=>$title]);
 

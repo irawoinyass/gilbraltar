@@ -28,7 +28,7 @@ Home
 <div class="row">
 <div class="col-lg-6">
 <div class="cybersecurity-content">
-<h5>Do you have to Cut Costs? Or you’re challenged with the responsibility to Increase Revenue, Improve Financial Performance or Achieve Project and Strategic Goals?</h5>
+<h5>Delivering Solutions to Optimise Business Efficiency and Growth is at the Core of Our Services.</h5>
 
 <p>Our experts will conveniently provide you with this process. We focus on delivering responsive results swiftly. Your trust in our capability to deliver effective results won’t be crossed. You’ll also have access to being advised corporately about ways to improve in your business model, client or employee relations, or other facets of day-to-day operations.</p>
 

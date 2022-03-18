@@ -24,7 +24,7 @@ Route::post('/contact', 'MainController@contact')->name('main.contact');
 Route::get('/Cloud Solutions', 'MainController@cloud')->name('main.cloud');
 Route::get('/Training', 'MainController@training')->name('main.training');
 Route::get('/IT Support and Service Management', 'MainController@IT')->name('main.IT');
-Route::get('/Operations and Support Professional Services', 'MainController@operations')->name('main.operations');
+Route::get('/Cybersecurity Operations and Support', 'MainController@operations')->name('main.operations');
 Route::get('/Network Engineering', 'MainController@network')->name('main.network');
 Route::get('/careers', 'MainController@careers')->name('main.careers');
 Route::get('/Business Consulting', 'MainController@consult')->name('main.consult');

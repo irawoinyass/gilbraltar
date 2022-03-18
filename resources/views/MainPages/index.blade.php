@@ -13,8 +13,10 @@
 <div class="row align-items-center">
 <div class="col-lg-9">
 <div class="slider-text one">
+	<div style="background: #000;">
 <h1>{{$slide->title}}</h1>
 <p>{{$slide->desc}}</p>
+</div>
 <div class="slider-btn">
 @if($slide->button_url != '')
 
@@ -108,7 +110,7 @@ Read More
 <div class="single-security hovers">
 <i class="flaticon-profile" style="background: #FF4500; color: #fff;"></i>
 <h3>Cloud Solutions</h3>
-<p>Whether you are at the beginning of your cloud migration journey or an existing cloud consumer looking to optimise and automate your cloud security, RightCue Cloud Security team can help.</p>
+<p>Whether you are at the beginning of your cloud migration journey or an existing cloud consumer looking to optimise and automate your cloud security, Gilbraltar Cloud Security team can help.</p>
 <a href="{{route('main.cloud')}}" class="read-more links">
 Read More
 </a>

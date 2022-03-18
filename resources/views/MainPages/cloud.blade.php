@@ -36,9 +36,7 @@ Home
 
 
 
-<p>Whether you are at the beginning of your cloud migration journey or an existing cloud consumer looking to optimise and automate your cloud security, RightCue Cloud Security team can help.</p>
-
-<p>Accessing via the internet means cloud computing can be done anywhere and anytime. With infrastructure and products provided by global market leaders and systems, products, security and support provided by Resolution IT, businesses can take advantage of high-level enterprise IT infrastructure that would never normally be affordable to them for a fixed fee.</p>
+<p>Whether you are at the beginning of your cloud migration journey or an existing cloud consumer looking to optimise and automate your cloud security, Gilbraltar Cloud Security team can help.</p>
 
 
 
@@ -49,7 +47,7 @@ Home
 </div>
 <div class="col-lg-6 pr-0">
 <!-- <div class="cybersecurity-img"></div> -->
-<img src="/assets/img/cloud.jpg" class="img-fliud">
+<img src="/assets/img/co.jpeg" class="img-fliud">
 </div>
 </div>
 </div>

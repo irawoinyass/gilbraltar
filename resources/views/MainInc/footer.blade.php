@@ -56,7 +56,7 @@ Business Consulting
 <li>
 <a href="{{route('main.operations')}}">
 <i class="bx bx-chevrons-right"></i>
-Operations and Support Professional Services
+Cybersecurity Operations and Support
 </a>
 </li>
 <li>
@@ -65,12 +65,12 @@ Operations and Support Professional Services
 Cloud Solutions
 </a>
 </li>
-<li>
+<!-- <li>
 <a href="{{route('main.training')}}">
 <i class="bx bx-chevrons-right"></i>
 Training
 </a>
-</li>
+</li> -->
 
 </ul>
 </div>

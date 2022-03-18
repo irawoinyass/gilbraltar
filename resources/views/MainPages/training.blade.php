@@ -30,7 +30,7 @@ Home
 <div class="cybersecurity-content">
 <h5>Training - it's time for something different.</h5>
 
-<p><i>Resolution Training</i> is a new take on traditional IT training;  it incorporates modern training techniques and educates the user on the untold benefits of technology, as well as showing them how to use the products most effectively, including best practices.</p>
+<p><i>Gilbraltar Training</i> is a new take on traditional IT training;  it incorporates modern training techniques and educates the user on the untold benefits of technology, as well as showing them how to use the products most effectively, including best practices.</p>
 
 <p>Delivered either at our new, modern training facilities, or at your own business premises, you can choose from the courses we create or tailor something more specific to your exact business needs.</p>
 
